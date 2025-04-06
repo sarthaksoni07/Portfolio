@@ -1,7 +1,5 @@
 # 🚀 Modern Portfolio Website
 
-![Portfolio Preview](/api/placeholder/1200/600)
-
 A stunning, interactive personal portfolio website featuring 3D effects, smooth animations, and a modern gradient design - all without requiring a backend.
 
 ## ✨ Features
