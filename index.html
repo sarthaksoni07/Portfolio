@@ -81,33 +81,45 @@
         cursor: pointer;
       }
 
+    .nav-links {
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .nav-links a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: all 0.3s ease;
+      position: relative;
+    }
+
+    .nav-links a:after {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 2px;
+      bottom: -5px;
+      left: 0;
+      background: linear-gradient(135deg, #6e8efb, #a777e3);
+      transition: width 0.3s ease;
+    }
+
+    .nav-links a:hover:after {
+      width: 100%;
+    }
+
+    @media (max-width: 768px) {
       .nav-links {
-        display: flex;
-        gap: 30px;
+        gap: 15px;
       }
 
       .nav-links a {
-        color: #fff;
-        text-decoration: none;
-        font-size: 1rem;
-        transition: all 0.3s ease;
-        position: relative;
+        font-size: 0.9rem;
       }
-
-      .nav-links a:after {
-        content: "";
-        position: absolute;
-        width: 0;
-        height: 2px;
-        bottom: -5px;
-        left: 0;
-        background: linear-gradient(135deg, #6e8efb, #a777e3);
-        transition: width 0.3s ease;
-      }
-
-      .nav-links a:hover:after {
-        width: 100%;
-      }
+    }
 
       /* Hero section */
       .hero {
