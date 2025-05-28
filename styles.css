@@ -65,6 +65,7 @@
         font-weight: 700;
         background: linear-gradient(135deg, #6e8efb, #a777e3);
         -webkit-background-clip: text;
+        background-clip: text;
         -webkit-text-fill-color: transparent;
         cursor: pointer;
       }
@@ -125,6 +126,8 @@
       .hero h1 span {
         background: linear-gradient(135deg, #6e8efb, #a777e3);
         -webkit-background-clip: text;
+        background-clip: text;
+
         -webkit-text-fill-color: transparent;
       }
 
@@ -269,6 +272,8 @@
         margin-bottom: 15px;
         background: linear-gradient(135deg, #6e8efb, #a777e3);
         -webkit-background-clip: text;
+        background-clip: text;
+
         -webkit-text-fill-color: transparent;
       }
 
@@ -438,8 +443,9 @@
 
       .gradient-text {  background: linear-gradient(135deg, #7ac5cd, #9d8dfa);
         -webkit-background-clip: text;
+        background-clip: text;
         -webkit-text-fill-color: transparent;
         display: inline-block;
         font-size: 18px;
-        font-weight: bold; /* This ensures the gradient applies correctly */
+        font-weight: bold; 
 }
